@@ -1,0 +1,12 @@
+{
+    "gitbook": ">=3.2.0",
+    "plugins": [
+	    "mathjax",
+	    "github@2.0.0"
+    ],
+    "pluginsConfig": {
+	"github": {
+            "url": "https://github.com/ConstanceMorel/gitbook-finance"
+        }
+    }
+}
