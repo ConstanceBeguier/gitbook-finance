@@ -18,7 +18,7 @@ Grands types de **titres de dettes**:
   - Bons du Trésor
 	  - Bons du Trésor français BTF: titre émis par l'état, durée < 52 semaines
 	  - Bons à taux fixes et à intérêts annualisés  BTAN: titres émis par l'état, durée: 2 à 5 ans
-  - Titre de Créance Négociables
+  - Titre de Créance Négociables TCN
 	  - Billets de trésorerie BT: titres émis par entreprises, durée < 1 an
 	  - Certificats de dépôts CDN: titres émis par des établissements financiers, durée < 1 an
 	  - Bons à moyen terme négociables BMTN: titres émis par des établissements financiers et par des entreprises, durée: 2 à 5 ans

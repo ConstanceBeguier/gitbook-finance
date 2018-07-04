@@ -30,7 +30,7 @@
 	  - emprunt de USD à 6 mois
 
 **Swap cambiste**: produit dérivé ferme
-  - principe: une entreprise achète/vend une devise contre une autre au comptant et vend/achète une devise contre une autre à terme (équivalent à l'échange d'un prêt/emprunt en devise 1 en un prêt/emprunt en devise 2):
+  - principe: une entreprise achète/vend une devise contre une autre au comptant et vend/achète une devise contre une autre à terme (équivalent à l'échange d'un prêt/emprunt en devise 1 en un emprunt/prêt en devise 2):
 	  - BUY & SELL: l'entreprise achète au comptant et vend à terme
 	  - SELL & BUY: l'entreprise vend au comptant et achète à terme
 

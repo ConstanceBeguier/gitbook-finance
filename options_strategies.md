@@ -70,7 +70,7 @@ Le trader obtient des bénéfices si $$S_T$$ est loin de $$K$$.
 
 ![](/images/straddle.png)
 
-Deux alternatives aux straddles prennent en compte le fait que le trader estime qu'il est probable que l'action soit haussière ou baissière (en plus du fait qu'il parie sur une forte variation de l'action).
+Deux alternatives aux straddles prennent en compte le fait que le trader estime qu'il est plus probable que l'action soit haussière ou baissière (en plus du fait qu'il parie sur une forte variation de l'action).
 
 Dans un **strip** (un call et deux puts), le trader parie sur une forte variation du prix de l'action avec une probabilité plus importante pour la baisse que la hausse.
 

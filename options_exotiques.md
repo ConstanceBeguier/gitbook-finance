@@ -1,10 +1,10 @@
 # Les options exotiques
 
-Les **packages**  sont des portefeuilles constitués de calls européens classiques, puts européens classiques, contrats forwards, liquidités et actifs sous-jacent (ex: bull/bear spreads, straddle/strangle, ...). Le plus souvent le coût initial du package est nul.
+Les **packages**  sont des portefeuilles constitués de calls européens classiques, puts européens classiques, contrats forwards, liquidités et/ou actifs sous-jacent (ex: bull/bear spreads, straddle/strangle, ...). Le plus souvent le coût initial du package est nul.
 
 Les **options américaines perptétuelles** sont des options sur un actif dérivé payant un montant fixe $$Q$$ à la première date à laquelle $$S=H$$.
 
-Les **options amércaines non standards** sont des options ayant une ou plusieurs des caractéristiques suivantes:
+Les **options américaines non standards** sont des options ayant une ou plusieurs des caractéristiques suivantes:
 - l'exercice anticipé de l'option est limité à certaines dates (**options bermudiennes**)
 - l'exercice anticipé de l'option est autorisé que pendant une période spécifique (par exemple, avec une période initiale de blocage)
 - le prix d'exercice de l'option est variable pendant la durée de vie de l'option
@@ -20,8 +20,8 @@ Les **compound options** sont des options sur options (calls sur calls, calls su
 Les **chooser options** sont des options pour lesquelles le détenteur peut choisir, après un certain délai, si l'option est un call ou un put (le prix d'exercice et la date d'échéance du call et du put ne sont pas forcément identiques).
 
 Les **options barrières** sont des options dont le payoff dépend du passage éventuel d'un seuil par le prix de l'actif sous-jacent pendant une certaine période. Il existe deux grands types d'options barrières:
-- les **options knock-out** qui cesse d'exister une fois que le prix de l'actif sous-jacent a atteint le seuil
-- les **options knock-in** qui commence à exister une fois que le prix de l'actif sous-jacent a atteint le seuil
+- les **options knock-out** qui cessent d'exister une fois que le prix de l'actif sous-jacent a atteint le seuil
+- les **options knock-in** qui commencent à exister une fois que le prix de l'actif sous-jacent a atteint le seuil
 
 Les **options digitales (ou binaires)** sont des options dont le payoff a des valeurs discontinues.
 
