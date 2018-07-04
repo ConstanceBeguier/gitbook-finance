@@ -106,8 +106,8 @@ Variation de la valeur du portefeuille:
 
 $$\begin{matrix} 
 \Delta Pi & = & - \Delta f + \frac{\partial f}{\partial S} \Delta S \\
- & = & -[(\frac{\partial f}{\partial S} \mu S + \frac{\partial f}{\partial t} + \frac{1}{2} \frac{\partial^2 f}{\partial S^2} \sigma^2 S^2) \Delta t \\
- & & + \frac{\partial f}{\partial S}\sigma S \Delta z] + \frac{\partial f}{\partial S} (\mu S \Delta t + \sigma S \Delta z) \\
+ & = & -[(\frac{\partial f}{\partial S} \mu S + \frac{\partial f}{\partial t} + \frac{1}{2} \frac{\partial^2 f}{\partial S^2} \sigma^2 S^2) \Delta t + \frac{\partial f}{\partial S}\sigma S \Delta z] \\
+ & & + \frac{\partial f}{\partial S} (\mu S \Delta t + \sigma S \Delta z) \\
  & = & (-\frac{\partial f}{\partial t} - \frac{1}{2} \frac{\partial^2 f}{\partial S^2} \sigma^2 S^2) \Delta t
 \end{matrix}$$
 
