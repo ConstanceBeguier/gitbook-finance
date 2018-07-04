@@ -108,7 +108,7 @@ $$\begin{matrix}
 \Delta Pi & = & - \Delta f + \frac{\partial f}{\partial S} \Delta S \\
  & = & -[(\frac{\partial f}{\partial S} \mu S + \frac{\partial f}{\partial t} + \frac{1}{2} \frac{\partial^2 f}{\partial S^2} \sigma^2 S^2) \Delta t + \frac{\partial f}{\partial S}\sigma S \Delta z] \\
  & & + \frac{\partial f}{\partial S} (\mu S \Delta t + \sigma S \Delta z) \\
- & = & (-\frac{\partial f}{\partial t} - \frac{1}{2} \frac{\partial^2 f}{\partial S^2 \sigma^2 S^2) \Delta t
+ & = & (-\frac{\partial f}{\partial t} - \frac{1}{2} \frac{\partial^2 f}{\partial S^2 \sigma^2 S^2} \Delta t
 \end{matrix}$$
 
 En l'absence d'opportunités d'arbitrage, le portefeuille doit être sans risque pendant $$\Delta t$$. Il doit donc procurer une rentabilité égale au taux sans risque $$r$$. Donc $$\Delta \Pi = r \Pi \Delta t$$. Nous obtenons alors l'équation aux dérivées partielles EDP de Black-Scholes-Merton:
@@ -117,17 +117,15 @@ $$r f = \frac{\partial f}{\partial t} + r S \frac{\partial f}{\partial S} + \fra
 
 En résolvant cette EDP en utilisant la valeur des contrats à l'échéance, nous pouvons calculer pour $$t=0$$ la valeur d'un call européen $$c$$ et d'un put européen $$p$$ sur une action ne versant pas de dividende:
 
-$$ \left\{
-c = S_0 N(d_1) - K e^{-rT} N(d_2) = e^{-rT} N(d_2) [S_0 e^{rT} N(d_1)/N(d_2) - K] \\
-p = K e^{-rT} N(-d_2) - S_0 N(-d1)
-\right. $$
+$$c = S_0 N(d_1) - K e^{-rT} N(d_2) = e^{-rT} N(d_2) [S_0 e^{rT} N(d_1)/N(d_2) - K]$$
+
+$$p = K e^{-rT} N(-d_2) - S_0 N(-d1)$$
 
 avec
 
-$$ \left\{
-d_1 = \frac{ln(S_0/K) + (r + \sigma^2/2)T}{\sigma \sqrt{T}} \\ 
-d_2 = \frac{ln(S_0/K) + (r - \sigma^2/2)T}{\sigma \sqrt{T}} = d_1 - \sigma \sqrt{T} 
-\right. $$
+$$d_1 = \frac{ln(S_0/K) + (r + \sigma^2/2)T}{\sigma \sqrt{T}}$$
+
+$$d_2 = \frac{ln(S_0/K) + (r - \sigma^2/2)T}{\sigma \sqrt{T}} = d_1 - \sigma \sqrt{T}$$
 
 où $$N(x)$$ est la fonction de répartition  $$P(X \le x)$$ d'une loi log-normale centrée réduite $$\Psi(0,1)$$
 
