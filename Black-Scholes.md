@@ -104,11 +104,12 @@ $$\Pi = -f + \frac{\partial f}{\partial S} S$$
 
 Variation de la valeur du portefeuille:
 
-$$\begin{align} 
+$$\begin{lalign} 
 \Delta Pi & = & - \Delta f + \frac{\partial f}{\partial S} \Delta S \\
- & = & -[(\frac{\partial f}{\partial S} \mu S + \frac{\partial f}{\partial t} + \frac{1}{2} \frac{\partial^2 f}{\partial S^2} \sigma^2 S^2) \Delta t + \frac{\partial f}{\partial S}\sigma S \Delta z] + \frac{\partial f}{\partial S} (\mu S \Delta t + \sigma S \Delta z) \\
- & = & (-\frac{\partial f}{\partial t} - \frac{1}{2} \frac{\partial^2 f}{\partial S^2 \sigma^2 S^2} \Delta t
-\end{align}$$
+ & = & -[(\frac{\partial f}{\partial S} \mu S + \frac{\partial f}{\partial t} + \frac{1}{2} \frac{\partial^2 f}{\partial S^2} \sigma^2 S^2) \Delta t \\
+ & & + \frac{\partial f}{\partial S}\sigma S \Delta z] + \frac{\partial f}{\partial S} (\mu S \Delta t + \sigma S \Delta z) \\
+ & = & (-\frac{\partial f}{\partial t} - \frac{1}{2} \frac{\partial^2 f}{\partial S^2} \sigma^2 S^2) \Delta t
+\end{lalign}$$
 
 En l'absence d'opportunités d'arbitrage, le portefeuille doit être sans risque pendant $$\Delta t$$. Il doit donc procurer une rentabilité égale au taux sans risque $$r$$. Donc $$\Delta \Pi = r \Pi \Delta t$$. Nous obtenons alors l'équation aux dérivées partielles EDP de Black-Scholes-Merton:
 
